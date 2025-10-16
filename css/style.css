@@ -77,59 +77,23 @@ body {
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding: 2rem;
-    padding-top: 0;
-    text-align: center;
 }
-
 .titulo__cal {
     background: var(--cor--fundo2);
     color: #ffffff;
     border-radius: 0.8rem;
-    margin-left: 10rem;
-    margin-bottom: 10rem;
+    margin-left: 30rem;
     padding: 0.4rem 2rem;
     margin-bottom: 1rem;
-    text-align: center;
     display: inline-block;
 }
 
-form label {
-    display: inline-block;
-    width: 15rem;
-    text-align: right;
-    padding-right: 1rem;
-}
 
-form input {
-    display: inline-block;
-    width: calc(80% - 16rem);
-}
-
-
-input {
-    background: var(--cor--resposta);
-    width: 80%;
-    margin: 0.5rem 0;
-    box-sizing: border-box;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    margin-bottom: 0.6rem;
-    border: none;
-}
-
-.campo {
+.campo form {
     display: flex;
     align-items: center;
     margin-bottom: 0.5rem;
 }
-
-
-.campo input {
-    flex-grow: 1;
-    max-width: 80%;
-    margin-left: 1rem;
-}
-
 
 .campo label {
     width: 15rem;
@@ -138,7 +102,23 @@ input {
     flex-shrink: 0;
 }
 
+.campo input {
+    flex-grow: 1;
+    max-width: 80%;
+    margin-left: 1rem;
+}
 
+
+input {
+    background: var(--cor--resposta);
+    width: 80%; 
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.6rem;
+    border: none;
+}
 
 /* ................................................. */
 @media (max-width: 844px) {
@@ -151,33 +131,25 @@ input {
         margin: 1rem;
         text-align: center;
     }
-
-    input {
-        width: 100%;
-        margin: 0;
-    }
-
+    
     .campo {
-        flex-direction: row;
-        align-items: center;
+        flex-direction: row; 
+        align-items: center; 
     }
 
     .campo label {
         width: 6rem;
-        text-align: left;
+        text-align: left; 
         padding-right: 0.5rem;
     }
 
-    input,
-    .campo input {
-        width: 100%;
-        flex-grow: 1;
+    input, .campo  input {
+        width: 100%; 
+        flex-grow: 1; 
         margin: 0;
         margin-left: 0.5rem;
         max-width: 100%;
     }
-
-    /*  ......................*/
 }
 
 footer {
