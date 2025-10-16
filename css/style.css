@@ -3,47 +3,45 @@
     padding: 0;
 }
 
-:root{
-    --cor--fundo1 :#2E3A4B;
-    --cor--fundo2 : #6D89B1;
-    --cor--botao : #2E3A4B;
-    --cor--texto : #000000;
-    --cor--titulo : #6D89B1;
-    --cor--texto--titulo :#FFFFFF;
-    --cor--resposta :#CCC9C9;
+:root {
+    --cor--fundo1: #2E3A4B;
+    --cor--fundo2: #6D89B1;
+    --cor--botao: #2E3A4B;
+    --cor--texto: #000000;
+    --cor--titulo: #6D89B1;
+    --cor--texto--titulo: #FFFFFF;
+    --cor--resposta: #CCC9C9;
     --fonte--pricipal: "Inter"
 }
 
-body{
-    background: linear-gradient(to right,#2E3A4B 0%,#6D89B1 45%) ;
+body {
+    background: linear-gradient(to right, #2E3A4B 0%, #6D89B1 45%);
     font-family: var(--fonte--pricipal);
 }
 
-.container{
-    background-color:var(--cor--texto--titulo) ;
+.container {
+    background-color: var(--cor--texto--titulo);
     border-radius: 2rem;
     margin: 2rem;
 
 }
 
-.container__nav{
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.container__inicio{
+.container__inicio {
     margin-top: 5rem;
     padding: 2.5rem;
 }
 
-.container__cal{
+.container__cal {
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding: 5rem;
     text-align: center;
 }
 
-footer{
+footer {
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     color: var(--cor--texto--titulo);
 }
