@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,93 +16,84 @@
 
 <body>
     <!-- Nav -->
-    <section class="container container__nav">
+    <section class="caixa container container__nav ">
         <div class="titulo-nav">
             <header>
                 <h3>Calculadora de Material</h3>
             </header>
-        
-            <div class="nav__botoes">
-                <nav>
-                    <ul>
-                        <li><a class="" href="#Inicio">Início</a></li>
-                        <li><a class="" href="#Tijolo">Tijolo</a></li>
-                        <li><a class="" href="#Pisos">Pisos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="nav__redes">
-                <a href="https://wa.me/556391034566" target="_blank">
-                    <img class="icon whatsapp" src="img/icons8-whatsapp-48.png" alt="Whatsapp">
-                </a>
-                <a href="https://www.instagram.com/ruizxc123/" target="_blank">
-                    <img class="icon instagram" src="img/icons8-instagram-48.png" alt="instagram">
-                </a>
-
-            </div>
+        </div>
+        <div class="nav__botoes">
+            <ul class="nav__lista">
+                <li><a class="nav__link" href="#Inicio">Início</a></li>
+                <li><a class="nav__link" href="#Tijolo">Tijolo</a></li>
+                <li><a class="nav__link" href="#Pisos">Pisos</a></li>
+                <li><a class="nav__linkimg" href="https://wa.me/556391034566"><img class="nav__img"
+                            src="img/icons8-whatsapp-100.png" alt="WhatsApp"></a></li>
+                <li><a class="nav__linkimg"
+                        href="https://www.linkedin.com/in/rui-ferreira-cabral-medeiros-magalh%C3%A3es-1a573737a/"><img
+                            class="nav__img" src="img/icons8-linkedin-100.png" alt="LinkedIn"></a></li>
+            </ul>
         </div>
     </section>
-    <!-- Como funciona -->
-
-    <section id="Inicio" class="container container__inicio">
-        <div>
-            <h3>Como fuciona o calculadora de material</h3>
-        </div>
-        <br>
-        <div>
-            <p> A calculadora aaaaaaaaaa aaaaaaaa aaaaaaaaaaa aaaaa aaaa aaaaaaaaa aaaaaaa.</p>
-            <p>Tijolo é aaaaa aaaaa aaaaaaaa aaaaaa aaaaaa aaaaaa aaa aaaaaaaaa aaaaaaaaa aaaa.</p>
-            <p>Piso é aaaaa aaaaa aaaaaaaa aaaaaa aaaaaa aaaaaa aaa aaaaaaaaa aaaaaaaaa aaaa. </p>
-        </div>
-    </section>
-
     <!-- Tijolo -->
 
-    <section id="Tijolo" class="container__cal container ">
-        <div class="titulo-tij">
+    <section id="Tijolo" class="   container__cal container ">
+        <div class="titulo__cal">
             <h3>Tijolo</h3>
         </div>
-        <div>
-            <form action="">
-                <label for="Informe o Valor">Informe o Valor :</label>
-                <input type="number" id="valortj" placeholder="Exemplo: 1000"><br>
-                <label for="">Cimento :</label>
-                <input type="number" id="Cimentotj" readonly><br>
-                <label for="">Areia :</label>
-                <input type="number" id="areiatj"readonly><br>
-                <label for="">Média de preço :</label>
-                <input type="number" id="mediatj" readonly><br>
-            </form>
-        </div>
+        <form action="">
+            <div class="campo"> <label for="valortj">Informe o Valor :</label>
+                <input type="number" id="valortj" placeholder="Exemplo: 1000">
+            </div>
+            <div class="campo"> <label for="Cimentotj">Cimento :</label>
+                <input type="number" id="Cimentotj" readonly>
+            </div>
+            <div class="campo">
+                <label for="areiatj">Areia :</label>
+                <input type="number" id="areiatj" readonly>
+            </div>
+            <div class="campo">
+                <label for="mediatj">Média de preço :</label>
+                <input type="number" id="mediatj" readonly>
+            </div>
+        </form>
     </section>
 
     <!-- Pisos  -->
 
-    <section id="Pisos" class="container__cal container ">
-        <div class="titulo-tij">
+    <section id="Pisos" class="  container__cal container ">
+        <div class="titulo__cal">
             <h3>Pisos</h3>
         </div>
-        <div>
-            <form action="">
-                <label for="Informe o Valor">Informe o Valor :</label>
-                <input type="number" id="valorps" placeholder="Exemplo: 1000"><br>
+        <form action="">
+            <div class="campo">
+                <label for="">Informe o Valor :</label>
+                <input type="number" id="valorps" placeholder="Exemplo: 10m2"><br>
+            </div>
+            <div class="campo">
                 <label for="">Cimento :</label>
-                <input type="number" id="Cimentops"readonly><br>
+                <input type="number" id="Cimentops" readonly><br>
+            </div>
+            <div class="campo">
                 <label for="">Areia :</label>
-                <input type="number" id="areiaps"readonly><br>
+                <input type="number" id="areiaps" readonly><br>
+            </div>
+            <div class="campo">
                 <label for="">Argamassa : </label>
-                <input type="number" id="argamassaps"readonly><br>
+                <input type="number" id="argamassaps" readonly><br>
+            </div>
+            <div class="campo">
                 <label for="">Média de preço :</label>
-                <input type="number" id="mediaps"readonly><br>
-            </form>
-        </div>
+                <input type="number" id="mediaps" readonly><br>
+            </div>
+        </form>
     </section>
 
     <!--footer  -->
 
-        <footer>
-            <h5>&copy;2025 . Desenvolvindo por Ruizxc123</h5>
-        </footer>
+    <footer>
+        <h5>&copy;2025 . Desenvolvindo por Ruizxc123</h5>
+    </footer>
 
 
 
