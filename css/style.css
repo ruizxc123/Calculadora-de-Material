@@ -17,7 +17,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #2E3A4B 25%, #556e91 55%,#6D89B1 75%);
+    background: linear-gradient(to bottom, #2E3A4B 25%, #556e91 55%, #6D89B1 75%);
     font-family: var(--fonte--pricipal);
     border-radius: 5rem;
     padding: 0.2rem;
@@ -130,11 +130,14 @@ label {
     text-align: center;
 }
 
-.video{
+.video {
     text-align: center;
     margin: 2rem;
 }
 
+.video__a {
+    text-align: center;
+}
 
 /* ................................................. */
 @media (max-width: 100px) {
