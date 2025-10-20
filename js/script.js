@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Tijolos
     function calculartijolo() {
         const valor = parseFloat(valortj.value) || 0;
-        cimentotj.value = Math.round(valor * 0.18) / 50 + 'sacos';
+        cimentotj.value = Math.round(valor * 0.18) / 50 + 'sacos 50kg';
         areiatj.value = Math.round(valor * 0.7) / 20 + 'sacos de 20kg';
         mediatj.value = Math.round((valor * 0.18) / 50 * 40 + (valor * 0.7) / 20 * 8);
     }
@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
       function calcularpisos() {
         const valor = parseFloat(valorps.value) || 0;
         cimentops.value = Math.round(valor * 0.3) + ' sacos';
-        areiaps.value = Math.round(valor * 1.5) + ' m3';
-        argamassaps.value = Math.round(valor * 0.3) + ' sacos';
+        areiaps.value = Math.round(valor * 1.5) + ' sacos de 20kg';
+        argamassaps.value = Math.round(valor * 0.3) + ' sacos 20kg';
         mediaps.value = Math.round((valor * 0.18) / 50 * 40 + (valor * 0.7) / 20 * 8 + (valor * 0.3)*18);
     }
 

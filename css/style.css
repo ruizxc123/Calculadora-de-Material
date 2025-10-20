@@ -17,7 +17,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #2E3A4B 0%, #6D89B1 45%);
+    background: linear-gradient(to bottom, #2E3A4B 25%, #556e91 55%,#6D89B1 75%);
     font-family: var(--fonte--pricipal);
     border-radius: 5rem;
     padding: 0.2rem;
