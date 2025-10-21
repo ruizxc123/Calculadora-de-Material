@@ -130,14 +130,6 @@ label {
     text-align: center;
 }
 
-.video {
-    text-align: center;
-    margin: 2rem;
-}
-
-.video__a {
-    text-align: center;
-}
 
 /* ................................................. */
 @media (max-width: 100px) {
