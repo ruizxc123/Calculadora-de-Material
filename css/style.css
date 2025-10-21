@@ -159,3 +159,14 @@ footer {
     padding: 10px;
     color: var(--cor--texto--titulo);
 }
+
+.imagem{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3rem ;
+}
+
+.imagem img{
+    height: 40em
+
+}
